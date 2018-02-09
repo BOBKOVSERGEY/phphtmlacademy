@@ -32,7 +32,8 @@ $curPage = 1; ?>
       </a>
     </li>
   <?php
-  $curPage++; }?>
+  $curPage++; }
+  ?>
 </ul>
 </body>
 </html>
