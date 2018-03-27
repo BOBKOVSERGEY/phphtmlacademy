@@ -10,3 +10,6 @@ print_r($_SESSION);
 echo '</pre>';
 // запись значения в сессию
 $_SESSION['username'] = 'Вася';
+
+// очищаем сессию
+//$_SESSION = [];
