@@ -13,7 +13,7 @@ echo $passNextHash;
 echo '<br>--------------<br>';
 // работа с паролями в php
 
-$passwordHash = password_hash('19871954', PASSWORD_DEFAULT);
+echo $passwordHash = password_hash('19871954', PASSWORD_DEFAULT);
 
 // сравнивает введенный пароль с хэшом
 if (password_verify('19871954', $passwordHash)) {
